@@ -6,9 +6,9 @@
 #define SEG7 6//a
 #define SEG9 5//f
 #define SEG10 4//g
-#define LEDON HIGH
-#define LEDOFF LOW
-
+#define LEDON LOW//Vaihdetaan HIGH>LOW(vertaa yhteiskatodi)
+#define LEDOFF HIGH//Vaihdetaan LOW>HIGH(vertaa yhteiskatodi)
+//Muista vaihtaa mikrokontrollerin pinni GND>5V(vertaa yhteiskatodi)
 
 void zero(){
   //numero 0
